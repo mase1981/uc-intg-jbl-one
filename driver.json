@@ -1,0 +1,39 @@
+{
+  "driver_id": "uc_intg_jbl_one",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "JBL One Soundbar"
+  },
+  "icon": "uc:audio",
+  "description": {
+    "en": "Control JBL soundbars supported by the JBL One app over your local network. Media player with power, volume, mute, play/pause and source selection; a full remote with sound modes (Smart Mode, Bass, Atmos, Calibration, Moment); switches for Night Mode, Smart Mode and Pure Voice; an EQ preset selector; and rear-speaker battery sensors. Soundbars are discovered automatically. No JBL account required - control is entirely local."
+  },
+  "developer": {
+    "name": "Meir Miyara",
+    "email": "meir.miyara@gmail.com",
+    "url": "https://github.com/mase1981"
+  },
+  "home_page": "https://github.com/mase1981/uc-intg-jbl-one",
+  "release_date": "2026-08-22",
+  "setup_data_schema": {
+    "title": {
+      "en": "JBL Soundbar Setup"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "JBL One Soundbar"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "On the next screen your JBL soundbars are discovered automatically. Leave the IP address blank to auto-discover, or enter it manually if discovery does not find your soundbar. The soundbar must be powered on and connected to your network."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
